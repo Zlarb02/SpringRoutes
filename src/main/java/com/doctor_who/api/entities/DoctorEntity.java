@@ -1,4 +1,4 @@
-package com.doctor_who.api;
+package com.doctor_who.api.entities;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Doctor {
+public class DoctorEntity {
     public int number;
     public String name;
     public String startDate;
